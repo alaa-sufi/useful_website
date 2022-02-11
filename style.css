@@ -1,0 +1,77 @@
+body {
+  background-color: #c5cae9;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.content {
+  text-transform: capitalize;
+}
+.content h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.group ul {
+  list-style: none;
+  background-color: #fff;
+  padding: 1rem 1rem 2rem;
+  border-radius: 10px;
+  margin: 0.5rem;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .group ul {
+    height: 20rem;
+  }
+}
+.group h2 {
+  margin: 1rem;
+  text-align: center;
+  color: #1a237e;
+}
+.group li {
+  background-color: #efebe9;
+  margin-bottom: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  overflow: hidden;
+}
+.group li .item {
+  color: #fff;
+  background-color: #1a237e;
+  margin: 0.1rem;
+  padding: 0px 0.3rem;
+  border-radius: 1rem;
+  float: right;
+}
+.group li .item a:hover {
+  color: #fff;
+}
+.group button {
+  width: 100%;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 5px;
+  display: block;
+  text-transform: uppercase;
+  padding: 0.3rem;
+  border: 1px solid #1a237e;
+}
+.group button.more {
+  background-color: #1a237e;
+  color: white;
+}
+.group button.less {
+  background-color: white;
+  color: #1a237e;
+}
+
+a {
+  color: inherit;
+  -webkit-text-decoration: capitalize;
+  text-decoration: capitalize;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
