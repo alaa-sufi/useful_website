@@ -43,29 +43,29 @@ export default function App() {
           modalTitle: "components",
           id: "tailwind-component-links",
           modalBody: `<ul style="height:initial">
-        <li><a class="d-block fw-bold" target="_blank" href="https://www.tailwind-kit.com/components">Tail Kit -- 250 components <span class="tag">html</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://mambaui.com/components">Mambaui -- 140 components <span class="tag">html</span><span class="tag">vue</span><span class="tag">jsx</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://www.gustui.com/docs/application/components/alerts">Gustui -- 50 components <span class="tag">html</span><span class="tag">react</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://kimia-ui.vercel.app/components/accordion">kimia-ui -- simple <span class="tag">react</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">merakiui -- beautiful<span class="tag">html</span><span class="tag">rtl/ltr</span><span class="tag">dark</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://kitwind.io/products/kometa/components">kitwind -- 130 sections <span class="tag">html</span><span class="tag">vue/ltr</span><span class="tag">react</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://www.tailwind-kit.com/components">Tail Kit -- 250 components <span className="tag">html</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://mambaui.com/components">Mambaui -- 140 components <span className="tag">html</span><span className="tag">vue</span><span className="tag">jsx</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://www.gustui.com/docs/application/components/alerts">Gustui -- 50 components <span className="tag">html</span><span className="tag">react</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://kimia-ui.vercel.app/components/accordion">kimia-ui -- simple <span className="tag">react</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">merakiui -- beautiful<span className="tag">html</span><span className="tag">rtl/ltr</span><span className="tag">dark</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://kitwind.io/products/kometa/components">kitwind -- 130 sections <span className="tag">html</span><span className="tag">vue/ltr</span><span className="tag">react</span></a></li>
         <hr/>
-        <h6 class="fw-bold">Other library based</h6>
-        <li><a class="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">Material Tailwind -- beautiful and big<span class="tag">react</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://www.vue-tailwind.com/">vue-tailwind -- <span class="tag">vue</span></a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://daisyui.com/components/button/">daisyui -- <span class="tag">html</span></a></li>
+        <h6 className="fw-bold">Other library based</h6>
+        <li><a className="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">Material Tailwind -- beautiful and big<span className="tag">react</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://www.vue-tailwind.com/">vue-tailwind -- <span className="tag">vue</span></a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://daisyui.com/components/button/">daisyui -- <span className="tag">html</span></a></li>
       </ul>`
         },
         {
           modalTitle: "templates",
           id: "tailwind-templates-links",
           modalBody: `<ul style="height:initial">
-        <li><a class="d-block fw-bold" target="_blank" href="https://www.tailwind-kit.com/components">Tail Kit -- Dashboards/Landing pages/Errors pages</a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://mambaui.com/components">Mambaui -- Business/Portfolio</a></li>
-        <li><a class="d-block fw-bold" target="_blank" href="https://www.gustui.com/docs/application/components/alerts">Gustui -- Accounts/Dashboards/Onboarding/Other</li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://www.tailwind-kit.com/components">Tail Kit -- Dashboards/Landing pages/Errors pages</a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://mambaui.com/components">Mambaui -- Business/Portfolio</a></li>
+        <li><a className="d-block fw-bold" target="_blank" href="https://www.gustui.com/docs/application/components/alerts">Gustui -- Accounts/Dashboards/Onboarding/Other</li>
         <hr/>
-        <h6 class="fw-bold">Other library based</h6>
-        <li><a class="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">Material Tailwind -- Landing Profile/Login/Register/Dashboard</a></li>
+        <h6 className="fw-bold">Other library based</h6>
+        <li><a className="d-block fw-bold" target="_blank" href="https://merakiui.com/components/">Material Tailwind -- Landing Profile/Login/Register/Dashboard</a></li>
       </ul>`
         }
       ]
@@ -226,7 +226,7 @@ export default function App() {
      <strong>form : </strong> https://github.com/etc.
         </li>
         <li>
-          <strong>to : </strong>  https://github<span class="text-danger">box</span>.com/etc
+          <strong>to : </strong>  https://github<span className="text-danger">box</span>.com/etc
         </li>
       </ul>`
         },
@@ -234,7 +234,7 @@ export default function App() {
           modalTitle: " Import Local projects via CLI",
           id: "codesandbox2",
           modalBody: ` <ul>
-          <h6 class="fw-bold">in commend line</h6>
+          <h6 className="fw-bold">in commend line</h6>
             <li>
          <strong>install glaobaly : </strong> npm install -g codesandbox
             </li>
@@ -533,14 +533,14 @@ export default function App() {
           modalTitle: "VS commend",
           id: "vs-php",
           modalBody: `<h5>from folder</h5>
-          <ul style="height:initial" class="mb-3">
+          <ul style="height:initial" className="mb-3">
           <li>php artisan config:clear</li>
           <li> php artisan cache:clear </li>
           <li>Php artisan mi:f --seed</li>
           <li>php artisan serve</li>
           </ul>
           <h5>from gitlab</h5>
-          <ul style="height:initial" class="mb-3">
+          <ul style="height:initial" className="mb-3">
           <li>copy .env.example to .env</li>
           <li>install vender:composer update</li>
           <li>install vender if has error:composer install --ignore-platform-reqs</li>
@@ -567,7 +567,7 @@ export default function App() {
     <div className="content">
       <h1>Useful Websites</h1>
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           {links.map((link, index) => (
             <div className="col-lg-4 col-md-6 group" key={index}>
               <ul>
@@ -577,7 +577,10 @@ export default function App() {
                 {link.list &&
                   link.list.map((li, i) => (
                     <>
-                      <li key={i} className={i > "4" && "d-none"}>
+                      <li
+                        key={`${index}-${i}`}
+                        className={i > "4" ? "d-none" : undefined}
+                      >
                         {li.title && (
                           <>
                             <a target="_blank" rel="noreferrer" href={li.link}>
@@ -585,7 +588,10 @@ export default function App() {
                             </a>
                             {li.list &&
                               li.list.map((l, ii) => (
-                                <span className="item" key={ii}>
+                                <span
+                                  className="item"
+                                  key={`${index}-${i}-${ii}`}
+                                >
                                   <a
                                     target="_blank"
                                     rel="noreferrer"
@@ -630,7 +636,7 @@ export default function App() {
                           </>
                         )}
                       </li>
-                      {i == link.list.length - 1 && i > 5 && (
+                      {i === link.list.length - 1 && i > 5 && (
                         <>
                           <button
                             className="more"
@@ -655,7 +661,7 @@ export default function App() {
               </ul>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
